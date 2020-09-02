@@ -1,5 +1,8 @@
 <nav class="navbar navbar-expand-sm navbar-dark">
-    <a class="navbar-brand nav-titulo" href="#">MADERAS GÜNTHER</a>
+    <a class="navbar-brand nav-titulo" href="#">
+        <img src="img/logo2.png" width="70" height="70" alt="" loading="lazy">
+        MADERAS GÜNTHER
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
