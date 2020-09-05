@@ -24,7 +24,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contacto.html">CONTACTENOS</a>
+                <a class="nav-link" href="contacto.php">CONTACTENOS</a>
             </li>
         </ul>
         
