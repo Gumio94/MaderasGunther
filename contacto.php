@@ -1,4 +1,4 @@
-   
+<?php include "inc/header.php"?>
     <body>    
        
         <H1>Contáctenos</H1>
@@ -16,12 +16,4 @@
 
             </form>
         </div>        
-
-   
-    </body>    
-   
-
-
-
-
-
+<?php include "inc/footer.php"?>
