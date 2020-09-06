@@ -8,7 +8,6 @@
                     <h6>Tel.: 44445555</h6></div>
                 <div class="col"></div>
             </div>
-            
         </div>
     </div>
 </div>

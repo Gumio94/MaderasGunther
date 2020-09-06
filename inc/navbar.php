@@ -8,7 +8,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-5">
+        <ul class="navbar-nav ml-3">
             <li class="nav-item active">
                 <a class="nav-link" href="#">INICIO <span class="sr-only">(current)</span></a>
             </li>
@@ -24,7 +24,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">CONTACTENOS</a>
+                <a class="nav-link" href="contacto.html">CONTACTENOS</a>
             </li>
         </ul>
         
