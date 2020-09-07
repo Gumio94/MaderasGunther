@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm navbar-dark">
     <a class="navbar-brand nav-titulo" href="#">
-        <img src="img/logo2.png" width="70" height="70" alt="" loading="lazy">
+        <img src="img/logo2.png" width="60" height="60" alt="" loading="lazy">
         MADERAS GÜNTHER
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -8,7 +8,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-3">
+        <ul class="navbar-nav ml-5">
             <li class="nav-item active">
                 <a class="nav-link" href="#">INICIO <span class="sr-only">(current)</span></a>
             </li>
