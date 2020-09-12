@@ -3,9 +3,10 @@
         <div class="col py-3">
             <div class="row justify-content-between">
                 <div class="col-md-6">
-                    <h6>©2020 por Maderas Günther</h6>
-                    <h6>Direccion: Calle falsa 4412, Localidad falsa, Buenos Aires, Argentina</h6>
-                    <h6>Tel.: 44445555</h6></div>
+                    <h6>©2020 Maderas Günther</h6>
+                    <h6>Tel.: 44445555</h6>
+                    <h6>Tel.: 44445555</h6>
+                </div>
                 <div class="col"></div>
             </div>
         </div>
