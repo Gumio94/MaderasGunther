@@ -12,7 +12,7 @@
                 <input type=" email" placeholder = " Email" id =" email" name = "email"  required class="emailcaja">
                 <input type=" number" placeholder = " Télefono" name ="telefono" id = "telefono" required class="telefonocaja">
                 <textarea type ="text" placeholder ="dejenos su mensaje"name = "mensaje" rows ="8" cols ="80"  id = "textarea" class ="mensajecaja" required ></textarea >
-                <button type="submit"name = "button" id = "button"  class="booton"><strong>Envíe su mensaje</strong> </button>
+                <button  type="submit"name = "button" id = "button"  class="booton"><strong><a href="index.php">Enviar mensaje</a></strong> </button>
 
             </form>
         </div>        
