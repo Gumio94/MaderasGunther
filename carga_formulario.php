@@ -1,3 +1,4 @@
+
 <?php
 
 include ("conectar_db.php");
@@ -14,11 +15,10 @@ $comprobar_consulta = $conectar -> query($consulta);
 
 if ($comprobar_consulta){
     echo " LOS DATOS SE GRABARON EN LA DB";
-    echo "<a href='contacto.php'></br>volver a Página de contactos</a>";
 }else{
     echo " ERROR EN LA CONSULTA, NO SE PUDO REALIZAR";
 }
-$enviaremail= mail("contacto@maderasgunther.com.ar",$nombre, utf8_decode($mensaje." ". $telefono), "From:" .$emal);
+$enviaremail= mail("contacto@maderasgunther.com.ar",$nombre, utf8_decode("Mensaje del cliente: "$mensaje."</br> \n telefono:". $telefono), "From:" .$emal);
 if ($enviaremail){
     echo " el email fue enviado";
    
