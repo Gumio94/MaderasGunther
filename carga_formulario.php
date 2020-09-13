@@ -14,7 +14,7 @@ $comprobar_consulta = $conectar -> query($consulta);
 
 if ($comprobar_consulta){
     echo " LOS DATOS SE GRABARON EN LA DB";
-    echo "<a href= contacto.php></br>volver a Página de contactos</a>";
+    echo "<a href='contacto.php'></br>volver a Página de contactos</a>";
 }else{
     echo " ERROR EN LA CONSULTA, NO SE PUDO REALIZAR";
 }
