@@ -18,7 +18,7 @@ if ($comprobar_consulta){
 }else{
     echo " ERROR EN LA CONSULTA, NO SE PUDO REALIZAR";
 }
-$enviaremail= mail("contacto@maderasgunther.com.ar",$nombre, $emal, $telefono, utf8_decode($mensaje));
+$enviaremail= mail("contacto@maderasgunther.com.ar",$nombre, utf8_decode($mensaje." ". $telefono), "From:" .$emal);
 if ($enviaremail){
     echo " el email fue enviado";
    
