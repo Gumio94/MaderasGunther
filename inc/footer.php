@@ -4,7 +4,7 @@
             <div class="row justify-content-between">
                 <div class="col-md-6">
                     <h6>©2020 Maderas Günther</h6>
-                    <h6>Tel.: 44445555</h6>
+                    <h6><a class="text-decoration-none" href="https://api.whatsapp.com/send?phone=5411236864">Tel.: 44445555</a></h6>
                     <h6>Tel.: 44445555</h6>
                 </div>
                 <div class="col"></div>

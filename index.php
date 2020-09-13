@@ -9,7 +9,7 @@
             <h1 class="text-center amarillo">Bienvenidos a</h1>
             <h1 class="text-center">Maderas Günther</h1>
         </div>
-        <div class="col-md-6 mb-3 px-5 py-2 bg-negro">
+        <div class="col-md-6 mb-3 px-1 py-1 bg-negro">
             <div id="carouselExampleSlidesOnly" class="carousel slide mx-auto" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
