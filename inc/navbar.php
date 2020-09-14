@@ -1,5 +1,10 @@
+<div class="d-none d-sm-block">
+    <a class="" href="index.php">
+        <img src="img/logo.png" width="200" height="200" alt="">
+    </a>
+</div>
 <nav class="navbar navbar-expand-sm navbar-dark">
-    <a class="navbar-brand nav-titulo" href="#">
+    <a class="navbar-brand nav-titulo d-block d-sm-none" href="index.php">
         <img src="img/Logo.png" width="60" height="60" alt="" loading="lazy">
         MADERAS GÜNTHER
     </a>
@@ -8,9 +13,9 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-5">
+        <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="#">INICIO <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.php">INICIO <span class="sr-only">(current)</span></a>
             </li>
 
             <li class="nav-item dropdown">

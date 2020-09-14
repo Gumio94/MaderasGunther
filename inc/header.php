@@ -14,7 +14,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet"/>
         
         <link rel="stylesheet" href="css/main.css"/>
-        <link rel="icon" type="image/png" href="img/logo2.png" />    
+        <link rel="icon" type="image/png" href="img/logo.png" />    
                
         <title>Maderas Günther</title>
     </head>
