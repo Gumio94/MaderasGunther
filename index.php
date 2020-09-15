@@ -6,7 +6,7 @@
         <div class="col-12 py-2 barra">
             <?php include "inc/navbar.php"?>
         </div>
-        <div class="col-md-7 pb-2 mb-4">
+        <div class="col-md-7 pb-2 mt-2 mb-4">
             <h1 class="text-center amarillo">Bienvenidos a</h1>
             <h1 class="text-center">Maderas Günther</h1>
         </div>
