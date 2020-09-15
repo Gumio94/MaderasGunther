@@ -4,21 +4,8 @@
             <div class="row justify-content-between">
                 <div class="col-md-6">
                     <h6>©2020 Maderas Günther</h6>
-                    <h6>
-                        <a class="text-decoration-none negro" href="https://api.whatsapp.com/send?phone=541137690929">
-                            Tel.: (011)3769-0929 (Pablo)
-                        </a>
-                    </h6>
-                    <h6>
-                        <a class="text-decoration-none negro" href="https://api.whatsapp.com/send?phone=542233126713">
-                            Tel.: (0223)312-6713 (Raúl)
-                        </a>
-                    </h6>
-                    <h6>
-                        <a class="text-decoration-none negro" href="https://api.whatsapp.com/send?phone=541164883305">
-                            Tel.: (011)6488-3305 (Pablo)
-                        </a>
-                    </h6>
+                    <h6><a class="text-decoration-none" href="https://api.whatsapp.com/send?phone=5411236864">Tel.: 44445555</a></h6>
+                    <h6>Tel.: 44445555</h6>
                 </div>
                 <div class="col"></div>
             </div>
