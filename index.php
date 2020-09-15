@@ -1,8 +1,9 @@
 <?php include "inc/header.php"?>
-<body>
+
+<div class="degrade">
 <div class="container-fluid cuerpo">
     <div class="row justify-content-md-center">
-        <div class="col-sm-7 py-2 barra">
+        <div class="col-12 py-2 barra">
             <?php include "inc/navbar.php"?>
         </div>
         <div class="col-md-7 py-2 my-4">
@@ -38,8 +39,6 @@ Todas las maderas cumplen con el protocolo normativo de los planes de manejo for
                     <li data-target="#fotos" data-slide-to="12"></li>
                     <li data-target="#fotos" data-slide-to="13"></li>
                     <li data-target="#fotos" data-slide-to="14"></li>
-                    <li data-target="#fotos" data-slide-to="15"></li>
-                    <li data-target="#fotos" data-slide-to="16"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -50,9 +49,6 @@ Todas las maderas cumplen con el protocolo normativo de los planes de manejo for
                     </div>
                     <div class="carousel-item">
                         <img src="img/gallery/3.jpeg" srcset="img/gallery/3min.jpeg 480w" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/gallery/4.jpeg" srcset="img/gallery/4min.jpeg 480w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
                         <img src="img/gallery/5.jpeg" srcset="img/gallery/5min.jpeg 480w" class="d-block w-100" alt="...">
@@ -103,6 +99,6 @@ Todas las maderas cumplen con el protocolo normativo de los planes de manejo for
         </div>
     </div>
 </div>
+</div>
 
-</body>
 <?php include "inc/footer.php"?>
