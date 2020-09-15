@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm navbar-dark">
     <a class="navbar-brand d-none d-sm-block" href="index.php">
-        <img src="img/logo.png" width="200" height="200" alt="">
+        <img src="img/Logo.png" width="200" height="200" alt="">
     </a>
     <a class="navbar-brand nav-titulo d-block d-sm-none" href="index.php">
         <img src="img/Logo.png" width="60" height="60" alt="" loading="lazy">
