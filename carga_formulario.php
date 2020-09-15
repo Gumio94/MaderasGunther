@@ -16,7 +16,7 @@ $comprobar_consulta = $conectar -> query($consulta);
 if ($comprobar_consulta){
     echo " LOS DATOS SE GRABARON EN LA DB";
 }else{
-    echo " ERROR EN LA CONSULTA, NO SE PUDO REALIZAR";
+    echo " ERROR EN LA CONSULTA, NO SE PUDO REALIZAR " . $conectar->error ;
 }
 $enviaremail= mail("contacto@maderasgunther.com.ar",$nombre, utf8_decode("Mensaje del cliente: ".$mensaje."</br> \n telefono:". $telefono), "From:" .$emal);
 if ($enviaremail){
