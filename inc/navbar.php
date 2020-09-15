@@ -1,9 +1,7 @@
-<div class="d-none d-sm-block">
-    <a class="" href="index.php">
+<nav class="navbar navbar-expand-sm navbar-dark">
+    <a class="navbar-brand d-none d-sm-block" href="index.php">
         <img src="img/logo.png" width="200" height="200" alt="">
     </a>
-</div>
-<nav class="navbar navbar-expand-sm navbar-dark">
     <a class="navbar-brand nav-titulo d-block d-sm-none" href="index.php">
         <img src="img/Logo.png" width="60" height="60" alt="" loading="lazy">
         MADERAS GÜNTHER
@@ -12,7 +10,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class=" collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
             <li class="nav-item active">
                 <a class="nav-link" href="index.php">INICIO <span class="sr-only">(current)</span></a>
@@ -23,13 +21,14 @@
                 MADERAS
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">TRADICIONAL</a>
-                    <a class="dropdown-item" href="#">AUTOCTONA</a>
-                    <a class="dropdown-item" href="#">OTRA</a>
+                    <a class="dropdown-item" href="#">RURALES</a>
+                    <a class="dropdown-item" href="#">COSTRUCCION</a>
+                    <a class="dropdown-item" href="#">CARPINTERIA</a>
+                    <a class="dropdown-item" href="#">ARTE RUSTICO</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contacto.php">CONTACTENOS</a>
+                <a class="nav-link" href="contacto.php">CONTACTO</a>
             </li>
         </ul>
         
