@@ -17,12 +17,9 @@
     font-family: 'Oswald', sans-serif;
 }
 
-.nav-link, .dropdown-item{
+.nav-link, .dropdown-item, label{
     font-family: 'Oswald', sans-serif;
-
     font-size: 1.45rem;
-
-
 }
 
 .nav-link,.negro{
@@ -63,6 +60,9 @@ body,.bg-negro{
     background-color: #262626 !important;
 }
 
+.sub{
+    text-decoration: underline #262626;
+}
 
 @media screen and (max-width: 575px) {
     .barra{

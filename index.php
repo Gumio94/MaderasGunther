@@ -6,7 +6,7 @@
         <div class="col-12 py-2 barra">
             <?php include "inc/navbar.php"?>
         </div>
-        <div class="col-md-7 py-2 my-4">
+        <div class="col-md-7 pb-2 mb-4">
             <h1 class="text-center amarillo">Bienvenidos a</h1>
             <h1 class="text-center">Maderas Günther</h1>
         </div>
@@ -42,49 +42,49 @@ Todas las maderas cumplen con el protocolo normativo de los planes de manejo for
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/gallery/1.jpeg" srcset="img/gallery/1min.jpeg 480w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/1.jpeg" srcset="img/gallery/1min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/gallery/2.jpeg" srcset="img/gallery/2min.jpeg 480w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/2.jpeg" srcset="img/gallery/2min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/gallery/3.jpeg" srcset="img/gallery/3min.jpeg 480w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/3.jpeg" srcset="img/gallery/3min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/gallery/5.jpeg" srcset="img/gallery/5min.jpeg 480w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/5.jpeg" srcset="img/gallery/5min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/gallery/6.jpeg" srcset="img/gallery/6min.jpeg 480w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/6.jpeg" srcset="img/gallery/6min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/gallery/7.jpeg" srcset="img/gallery/7min.jpeg 480w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/7.jpeg" srcset="img/gallery/7min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/gallery/8.jpeg" srcset="img/gallery/8min.jpeg 480w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/8.jpeg" srcset="img/gallery/8min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/gallery/9.jpeg" srcset="img/gallery/9min.jpeg 480w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/9.jpeg" srcset="img/gallery/9min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/gallery/10.jpeg" srcset="img/gallery/10min.jpeg 480w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/10.jpeg" srcset="img/gallery/10min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/gallery/11.jpeg" srcset="img/gallery/11min.jpeg 480w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/11.jpeg" srcset="img/gallery/11min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/gallery/12.jpeg" srcset="img/gallery/12min.jpeg 480w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/12.jpeg" srcset="img/gallery/12min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/gallery/13.jpeg" srcset="img/gallery/13min.jpeg 480w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/13.jpeg" srcset="img/gallery/13min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/gallery/14.jpeg" srcset="img/gallery/14min.jpeg 480w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/14.jpeg" srcset="img/gallery/14min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/gallery/15.jpeg" srcset="img/gallery/15min.jpeg 480w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/15.jpeg" srcset="img/gallery/15min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/gallery/16.jpeg" srcset="img/gallery/16min.jpeg 480w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/16.jpeg" srcset="img/gallery/16min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#fotos" role="button" data-slide="prev">

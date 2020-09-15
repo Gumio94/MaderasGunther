@@ -7,6 +7,7 @@
         <meta name="X-AU-Compatible" content="id=edge"/>
         
         <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
         <!--fonts-->
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet"/>
