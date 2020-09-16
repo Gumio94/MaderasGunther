@@ -26,7 +26,7 @@
             <h4 class="amarillo osw">CONTACTO@MADERASGUNTHER.COM.AR</h4>
             
             <h2 class="mt-5">O dejenos un mensaje con sus datos</h2>
-            <form id="formulario" action="carga_formulario.php" method="POST">
+            <form id="formulario" action="contacto.php" method="POST">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="form-group">
