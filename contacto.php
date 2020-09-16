@@ -68,7 +68,7 @@
                  document.getElementById("formulario").submit();
                }
             </script>
-            <?php include "cargar_formulario.php"?>
+            <?php include "carga_formulario.php"?>
         </div>
     </div>
 </div>   
