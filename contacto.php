@@ -68,8 +68,8 @@
                  document.getElementById("formulario").submit();
                }
             </script>
-            <?php include "carga_formulario.php"?>
         </div>
     </div>
 </div>       
 <?php include "inc/footer.php"?>
+<?php include "carga_formulario.php"?>
