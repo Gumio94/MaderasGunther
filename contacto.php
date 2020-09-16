@@ -6,9 +6,27 @@
             <?php include "inc/navbar.php"?>
         </div>
         <div class="col-md-9 col-lg-7 py-3 my-4">
-            <H1>Contáctenos</H1>
+            <H1 class="negro">Contáctenos</H1>
+            <h2 class="mt-5">Puede llamarnos al:</h2>
+            <h4 class="amarillo osw">
+                (011) 3769-0929 (Pablo) 
+                <a href="https://api.whatsapp.com/send?phone=541137690929" class="text-decoration-none amarillo">
+                    <span class="bg-negro rounded px-1">Enviar Whatsapp<i class="fa fa-whatsapp"></i></span>
+                </a>
+            </h4>
+            <h4 class="amarillo osw py-1">
+                (0223) 312-6713 (Raúl)
+                <a href="https://api.whatsapp.com/send?phone=542233126713" class="text-decoration-none amarillo">
+                    <span class="bg-negro rounded px-1">Enviar Whatsapp<i class="fa fa-whatsapp"></i></span>
+                </a>
+            </h4>
+            <h4 class="amarillo osw">(011) 6488-3305 (Enrique)</h4>
             
-            <form action="carga_formulario.php" method="POST">
+            <h2 class="mt-5">Mandarnos un correo al:</h2>
+            <h4 class="amarillo osw">CONTACTO@MADERASGUNTHER.COM.AR</h4>
+            
+            <h2 class="mt-5">O dejenos un mensaje con sus datos</h2>
+            <form id="formulario" action="carga_formulario.php" method="POST">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="form-group">
@@ -28,14 +46,29 @@
                             <input type="number" placeholder="Ingresar codigo de area y numeros sin guiones ni espacio..." name="telefono" id="telefono" required class="form-control">
                         </div>                       
                     </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label class="amarillo" for="mensaje">Mensaje</label>
+                            <textarea placeholder="Dejenos su mensaje..." name="mensaje" rows="8" id="mensaje" class="form-control" required ></textarea >
+                        </div>                     
+                    </div>
+                    <div class="col-md-12">
+                        <button class="g-recaptcha btn bg-negro blanco d-block mx-auto osw" 
+                            data-sitekey="6LfMqMwZAAAAAHLr5W6ZBnX3yWBTuF6jxKIvecR5" 
+                            data-callback='onSubmit' 
+                            data-action='submit'>Enviar mensaje</button>                   
+                    </div>
+                    
                 </div>
-                <div class="form-group">
-                    <label class="amarillo" for="mensaje">Mensaje</label>
-                    <textarea placeholder="Dejenos su mensaje..." name="mensaje" rows="8" id="mensaje" class="form-control" required ></textarea >
-                </div>
-                <button type="submit" class="btn btn-primary" >Enviar Mensaje</button>
+                
             </form>
-             
+            
+            <script>
+               function onSubmit(token) {
+                 document.getElementById("formulario").submit();
+               }
+            </script>
+            <?php include "carga_formulario.php"?>
         </div>
     </div>
 </div>       

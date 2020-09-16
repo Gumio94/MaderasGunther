@@ -16,7 +16,7 @@
                 </h6>
                 <h6>
                     <a class="text-decoration-none negro" href="https://api.whatsapp.com/send?phone=541164883305"><i class="fa fa-whatsapp"></i>
-                        (011)6488-3305 (Pablo)
+                        (011)6488-3305 (Enrique)
                     </a>
                 </h6>
             </div>
@@ -31,5 +31,7 @@
 <script src="js/jquery-3.5.1.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/alertifyjs/alertify.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
 </body>
 </html>

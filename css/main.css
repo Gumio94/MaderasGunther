@@ -13,16 +13,16 @@
 }
 
 .navbar-brand{
-    color: #f7d57f !important;
+    color: #e1a400 !important;
     font-family: 'Oswald', sans-serif;
 }
 
-.nav-link, .dropdown-item, label{
+.nav-link, .dropdown-item, label, .osw{
     font-family: 'Oswald', sans-serif;
     font-size: 1.45rem;
 }
 
-.nav-link,.negro{
+.nav-link,.blanco{
     color: #fff !important;
 }
 
@@ -48,6 +48,10 @@ p{
 .amarillo{
     color: #e1a400 !important;
 }
+a[class~="amarillo"]:hover{
+    color: #b78602 !important;
+}
+
 .bg-amarillo{
     background-color: #e1a400 !important;
 }
