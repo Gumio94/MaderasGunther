@@ -70,6 +70,6 @@
             </script>
         </div>
     </div>
-</div>       
+</div>
+<?php include "carga_formulario.php"?>       
 <?php include "inc/footer.php"?>
-<?php include "carga_formulario.php"?>
