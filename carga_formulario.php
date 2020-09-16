@@ -23,12 +23,12 @@ if(isset($_POST['nombre'])){
         $error.="ERROR MAIL: ". error_get_last()['message'];
     }
     
-    echo "<script> $(document).ready(function() {";
+    echo "<script> function msj(){";
     if($error==""){
         echo "alertify.success('Mensaje enviado con exito.');";
     }else{
         echo "alertify.error('$error');";
     }
-    echo "});</script>";
+    echo "}</script>";
 }
 ?>

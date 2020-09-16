@@ -32,6 +32,7 @@
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/alertifyjs/alertify.min.js"></script>
+<script src="js/main.js"></script>
 <script src="https://www.google.com/recaptcha/api.js"></script>
 </body>
 </html>
