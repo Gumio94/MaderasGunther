@@ -76,12 +76,13 @@
                         type:"POST", 
                         url:"carga_formulario.php", 
                         data:{d}, 
-                        success:function(datos){ 
-                            if(datos==1){
+                        success:function(datos){
+                            alert(datos);
+                            if(datos=="1"){
                                 alertify.success("Su mensaje fue enviado");
                                 frm.trigger("reset");
                             }else{
-                                alertify.error("Hubo un problema al enviar el mensaje. \nIntente nuevamente mas tarde");
+                                alertify.error("Hubo un problema al enviar el mensaje. <br/>Intente nuevamente mas tarde");
                             }
                          },
                     })
