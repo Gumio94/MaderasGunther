@@ -80,8 +80,6 @@
                             mensaje: $("#mensaje").val()
                         }, 
                         success:function(datos){
-                            alert(datos);
-                            
                             if(datos=="1"){
                                 alertify.success("Su mensaje fue enviado");
                                 $("#formulario").trigger("reset");
