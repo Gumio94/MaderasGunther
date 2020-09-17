@@ -87,7 +87,7 @@
                     }
                     if($("#mensaje").val().length==0){
                         $("#mensaje").focus();
-                        alertify.warning("Ingrese un msj");
+                        alertify.warning("Ingrese un mensaje");
                         return false;
                     }
                     
