@@ -1,4 +1,4 @@
-/*global $,document,msj*/
+/*global $,document*/
 $(document).ready(function () {
-    msj();
+    
 });

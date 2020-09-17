@@ -9,24 +9,29 @@
             <H1 class="negro">Contáctenos</H1>
             <h2 class="mt-5">Puede llamarnos al:</h2>
             <h4 class="amarillo osw">
-                (011) 3769-0929 (Pablo) 
+                (011) 3769-0929 (Zona Norte) 
                 <a href="https://api.whatsapp.com/send?phone=541137690929" class="text-decoration-none amarillo">
                     <span class="bg-negro rounded px-1">Enviar Whatsapp<i class="fa fa-whatsapp"></i></span>
                 </a>
             </h4>
             <h4 class="amarillo osw py-1">
-                (0223) 312-6713 (Raúl)
+                (0223) 312-6713 (Zona Sur)
                 <a href="https://api.whatsapp.com/send?phone=542233126713" class="text-decoration-none amarillo">
                     <span class="bg-negro rounded px-1">Enviar Whatsapp<i class="fa fa-whatsapp"></i></span>
                 </a>
             </h4>
-            <h4 class="amarillo osw">(011) 6488-3305 (Enrique)</h4>
+            <h4 class="amarillo osw">
+                (011) 6488-3305 (Zona Central)
+                <a href="https://api.whatsapp.com/send?phone=541164883305" class="text-decoration-none amarillo">
+                    <span class="bg-negro rounded px-1">Enviar Whatsapp<i class="fa fa-whatsapp"></i></span>
+                </a>
+            </h4>
             
             <h2 class="mt-5">Mandarnos un correo al:</h2>
             <h4 class="amarillo osw">CONTACTO@MADERASGUNTHER.COM.AR</h4>
             
             <h2 class="mt-5">O dejenos un mensaje con sus datos</h2>
-            <form id="formulario" action="contacto.php" method="POST">
+            <form id="formulario" method="POST">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="form-group">
@@ -64,11 +69,24 @@
             </form>
             
             <script>
-               function onSubmit(token) {
-                 document.getElementById("formulario").submit();
-               }
+                function onSubmit(token) {
+                    var frm=$("#formulario"); //Identificamos el formulario por su id
+                    var d = frm.serialize();
+                    $.ajax({
+                        type:"POST", 
+                        url:"carga_formulario.php", 
+                        data:{d}, 
+                        success:function(datos){ 
+                            if(datos==1){
+                                alertify.success("Su mensaje fue enviado");
+                                frm.trigger("reset");
+                            }else{
+                                alertify.error("Hubo un problema al enviar el mensaje. \nIntente nuevamente mas tarde");
+                            }
+                         },
+                    })
+                }
             </script>
-            <?php include "carga_formulario.php"?>
         </div>
     </div>
 </div>   

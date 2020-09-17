@@ -6,17 +6,17 @@
                 <h6 class="sub" >Telefonos</h6>
                 <h6>
                     <a class="text-decoration-none negro" href="https://api.whatsapp.com/send?phone=541137690929"><i class="fa fa-whatsapp"></i>
-                        (011)3769-0929 (Pablo)
+                        (011)3769-0929 (Zona Norte)
                     </a>
                 </h6>
                 <h6>
                     <a class="text-decoration-none negro" href="https://api.whatsapp.com/send?phone=542233126713"><i class="fa fa-whatsapp"></i>
-                        (0223)312-6713 (Raúl)
+                        (0223)312-6713 (Zona Sur)
                     </a>
                 </h6>
                 <h6>
                     <a class="text-decoration-none negro" href="https://api.whatsapp.com/send?phone=541164883305"><i class="fa fa-whatsapp"></i>
-                        (011)6488-3305 (Enrique)
+                        (011)6488-3305 (Zona Central)
                     </a>
                 </h6>
             </div>
@@ -31,7 +31,7 @@
 <script src="js/jquery-3.5.1.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/alertifyjs/alertify.min.js"></script>
+<script src="js/alertify.min.js"></script>
 <script src="js/main.js"></script>
 <script src="https://www.google.com/recaptcha/api.js"></script>
 </body>
