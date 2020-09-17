@@ -70,14 +70,18 @@
             
             <script>
                 function onSubmit(token) {
-                    var frm=$("#formulario"); //Identificamos el formulario por su id
-                    var d = frm.serialize();
                     $.ajax({
                         type:"POST", 
                         url:"carga_formulario.php", 
-                        data:{d}, 
+                        data:{
+                            nombre: $("#nombre").val(),
+                            email: $("#email").val(),
+                            telefono: $("#telefono").val(),
+                            mensaje: $("#mensaje").val()
+                        }, 
                         success:function(datos){
                             alert(datos);
+                            
                             if(datos=="1"){
                                 alertify.success("Su mensaje fue enviado");
                                 frm.trigger("reset");
