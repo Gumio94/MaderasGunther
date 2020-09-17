@@ -70,6 +70,27 @@
             
             <script>
                 function onSubmit(token) {
+                    if($("#nombre").val().length==0){
+                        $("#nombre").focus();
+                        alertify.warning("Ingrese un nombre.");
+                        return false;
+                    }
+                    if($("#email").val().length==0 || $("#email").val().indexOf('@', 0)==-1 || $("#email").val().indexOf('.', 0)==-1 ){
+                        $("#email").focus();
+                        alertify.warning("Ingrese un mail valido.");
+                        return false;
+                    }
+                    if($("#telefono").val().length==0){
+                        $("#telefono").focus();
+                        alertify.warning("Ingrese un numero.");
+                        return false;
+                    }
+                    if($("#mensaje").val().length==0){
+                        $("#mensaje").focus();
+                        alertify.warning("Ingrese un msj");
+                        return false;
+                    }
+                    
                     $.ajax({
                         type:"POST", 
                         url:"carga_formulario.php", 
