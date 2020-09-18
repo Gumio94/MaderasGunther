@@ -8,25 +8,31 @@
         <div class="col-md-9 col-lg-7 py-3 my-4">
             <H1 class="negro">Contáctenos</H1>
             <h2 class="mt-5">Puede llamarnos al:</h2>
-            <h4 class="amarillo osw">
-                (011) 3769-0929 (Zona Norte) 
-                <a href="https://api.whatsapp.com/send?phone=541137690929" class="text-decoration-none amarillo">
-                    <span class="bg-negro rounded px-1">Enviar Whatsapp<i class="fa fa-whatsapp"></i></span>
+            <div>
+                <h4 class="amarillo osw d-inline-block">
+                    (011) 3769-0929 (Zona Norte) 
+                </h4>
+                <a href="https://api.whatsapp.com/send?phone=541137690929" class="text-decoration-none amarillo d-block d-sm-inline-block">
+                    <span class="bg-negro osw rounded px-1">Enviar Whatsapp<i class="fa fa-whatsapp"></i></span>
                 </a>
-            </h4>
-            <h4 class="amarillo osw py-1">
-                (0223) 312-6713 (Zona Sur)
-                <a href="https://api.whatsapp.com/send?phone=542233126713" class="text-decoration-none amarillo">
-                    <span class="bg-negro rounded px-1">Enviar Whatsapp<i class="fa fa-whatsapp"></i></span>
+            </div>            
+            <div class="py-1">
+                <h4 class="amarillo osw d-inline-block">
+                    (0223) 312-6713 (Zona Sur)
+                </h4>    
+                <a href="https://api.whatsapp.com/send?phone=542233126713" class="text-decoration-none amarillo d-block d-sm-inline-block">
+                    <span class="bg-negro osw rounded px-1">Enviar Whatsapp<i class="fa fa-whatsapp"></i></span>
                 </a>
-            </h4>
-            <h4 class="amarillo osw">
-                (011) 6488-3305 (Zona Central)
-                <a href="https://api.whatsapp.com/send?phone=541164883305" class="text-decoration-none amarillo">
-                    <span class="bg-negro rounded px-1">Enviar Whatsapp<i class="fa fa-whatsapp"></i></span>
-                </a>
-            </h4>
+            </div>
             
+            <div>
+                <h4 class="amarillo osw d-inline-block">
+                    (011) 6488-3305 (Zona Central)
+                </h4>
+                <a href="https://api.whatsapp.com/send?phone=541164883305" class="text-decoration-none amarillo d-block d-sm-inline-block">
+                    <span class="bg-negro osw rounded px-1">Enviar Whatsapp<i class="fa fa-whatsapp"></i></span>
+                </a>
+            </div>
             <h2 class="mt-5">Mandarnos un correo al:</h2>
             <h4 class="amarillo osw">CONTACTO@MADERASGUNTHER.COM.AR</h4>
             
@@ -87,7 +93,7 @@
                     }
                     if($("#mensaje").val().length==0){
                         $("#mensaje").focus();
-                        alertify.warning("Ingrese un mensaje");
+                        alertify.warning("Ingrese un mensaje.");
                         return false;
                     }
                     
