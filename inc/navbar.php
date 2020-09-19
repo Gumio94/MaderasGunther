@@ -21,7 +21,7 @@
                 MADERAS
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">RURALES</a>
+                    <a class="dropdown-item" href="tipos_de_maderas.php">RURALES</a>
                     <a class="dropdown-item" href="#">COSTRUCCION</a>
                     <a class="dropdown-item" href="#">CARPINTERIA</a>
                     <a class="dropdown-item" href="#">ARTE RUSTICO</a>
