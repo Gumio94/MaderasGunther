@@ -22,9 +22,9 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="tipos_de_maderas.php #rurales">RURALES</a>
-                    <a class="dropdown-item" href="tipos_de_maderas.php #construccion">COSTRUCCION</a>
-                    <a class="dropdown-item" href="tipos_de_maderas.php #carpinteria">CARPINTERIA</a>
-                    <a class="dropdown-item" href="tipos_de_maderas.php #arte_rustico">ARTE RUSTICO</a>
+                    <a class="dropdown-item" href="tipos_de_maderas.php #construccion">CONSTRUCCIÓN</a>
+                    <a class="dropdown-item" href="tipos_de_maderas.php #carpinteria">CARPINTERÍA</a>
+                    <a class="dropdown-item" href="tipos_de_maderas.php #arte_rustico">ARTE RÚSTICO</a>
                 </div>
             </li>
             <li class="nav-item">

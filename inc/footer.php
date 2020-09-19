@@ -3,7 +3,7 @@
         <div class="col py-3">
             <h6 class="float-right">©2020 Maderas Günther</h6>      
             <div class="float-left mr-5">
-                <h6 class="sub" >Telefonos</h6>
+                <h6 class="sub" >Teléfonos</h6>
                 <h6>
                     <a class="text-decoration-none negro" href="https://api.whatsapp.com/send?phone=541137690929"><i class="fa fa-whatsapp"></i>
                         (011)3769-0929 (Zona Norte)
@@ -11,7 +11,7 @@
                 </h6>
                 <h6>
                     <a class="text-decoration-none negro" href="https://api.whatsapp.com/send?phone=542233126713"><i class="fa fa-whatsapp"></i>
-                        (0223)312-6713 (Zona Sur)
+                        (0223)312-6713 (Zona Sur 1)
                     </a>
                 </h6>
                 <h6>
@@ -19,9 +19,14 @@
                         (011)6488-3305 (Zona Central)
                     </a>
                 </h6>
+                <h6>
+                    <a class="text-decoration-none negro" href="https://api.whatsapp.com/send?phone=541150378473"><i class="fa fa-whatsapp"></i>
+                        (011)50378473 (Zona Sur 2)
+                    </a>
+                </h6>
             </div>
             <div class="float-left">
-                <h6 class="sub">Correo Electronico</h6>
+                <h6 class="sub">Correo Electrónico</h6>
                 <h6>contacto@maderasgunther.com.ar</h6>
             </div>
         </div>
