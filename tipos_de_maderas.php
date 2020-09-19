@@ -6,7 +6,7 @@
             <?php include "inc/navbar.php"?>
         </div>
         <div class="col-md-9 col-lg-7 py-3 my-4"> 
-            <div id = "rurales">
+            <div id = "rurales" class ="p-4">
             <h3> RURALES</h3>
                 <ul class="list-group">
                     <li class="list-group-item">Varillas de alambrado</li>
@@ -19,7 +19,7 @@
                 </ul>
             </div>
 
-            <div id = "construccion">
+            <div id = "construccion"class ="p-4" >
             <h3> CONTRUCCION</h3>
                 <ul class="list-group">
                     <li class="list-group-item">Eucalipto</li>
@@ -42,7 +42,7 @@
                 </ul>
             </div>
 
-            <div id = "carpinteria">
+            <div id = "carpinteria" class ="p-4">
             <h3>CARPINTERIA</h3>
                 <ul class="list-group">
                     <li class="list-group-item">Cedro</li>
@@ -56,7 +56,7 @@
                 </ul>
             </div>
 
-            <div id = "arte_rustico">
+            <div id = "arte_rustico" class ="p-4">
             <h3> ARTES RUSTICOS</h3>
                 <ul class="list-group">
                     <li class="list-group-item">imagenes de arte rustico</li>
