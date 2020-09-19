@@ -7,7 +7,7 @@
         </div>
         <div class="col-md-9 col-lg-7 py-3 my-4"> 
             <div id = "rurales" class ="p-4">
-            <h3> RURALES</h3>
+            <h3 class="blanco" > RURALES</h3>
                 <ul class="list-group">
                     <li class="list-group-item">Varillas de alambrado</li>
                     <li class="list-group-item">Anchico</li>
@@ -20,7 +20,7 @@
             </div>
 
             <div id = "construccion"class ="p-4" >
-            <h3> CONTRUCCION</h3>
+            <h3 class="blanco"> CONTRUCCION</h3>
                 <ul class="list-group">
                     <li class="list-group-item">Eucalipto</li>
                     <li class="list-group-item">Euca. Poste tratado</li>
@@ -43,7 +43,7 @@
             </div>
 
             <div id = "carpinteria" class ="p-4">
-            <h3>CARPINTERIA</h3>
+            <h3 class="blanco">CARPINTERIA</h3>
                 <ul class="list-group">
                     <li class="list-group-item">Cedro</li>
                     <li class="list-group-item">Loro negro</li>
@@ -57,7 +57,7 @@
             </div>
 
             <div id = "arte_rustico" class ="p-4">
-            <h3> ARTES RUSTICOS</h3>
+            <h3 class="blanco" > ARTES RUSTICOS</h3>
                 <ul class="list-group">
                     <li class="list-group-item">imagenes de arte rustico</li>
                    
