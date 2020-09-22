@@ -15,15 +15,16 @@
                     </a>
                 </h6>
                 <h6>
-                    <a class="text-decoration-none negro" href="https://api.whatsapp.com/send?phone=541164883305"><i class="fa fa-whatsapp"></i>
-                        (011)6488-3305 (Zona Central)
-                    </a>
-                </h6>
-                <h6>
                     <a class="text-decoration-none negro" href="https://api.whatsapp.com/send?phone=541150378473"><i class="fa fa-whatsapp"></i>
                         (011)50378473 (Zona Sur 2)
                     </a>
                 </h6>
+                <h6>
+                    <a class="text-decoration-none negro" href="https://api.whatsapp.com/send?phone=541164883305"><i class="fa fa-whatsapp"></i>
+                        (011)6488-3305 (Zona Central)
+                    </a>
+                </h6>
+                
             </div>
             <div class="float-left">
                 <h6 class="sub">Correo Electrónico</h6>

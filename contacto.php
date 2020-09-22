@@ -41,14 +41,6 @@
                 </a>
             </div>
 
-            <div>
-                <h4 class="amarillo osw d-inline-block">
-                    (011) 50378473 (Zona Sur 2)
-                </h4>
-                <a href="https://api.whatsapp.com/send?phone=541150378473" class="text-decoration-none amarillo d-block d-sm-inline-block">
-                    <span class="bg-negro osw rounded px-1">Enviar Whatsapp<i class="fa fa-whatsapp"></i></span>
-                </a>
-            </div>
             <h2 class="mt-5">Mandarnos un correo al:</h2>
             <h4 class="amarillo osw">CONTACTO@MADERASGUNTHER.COM.AR</h4>
             
