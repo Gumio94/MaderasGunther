@@ -11,7 +11,12 @@
                 </h6>
                 <h6>
                     <a class="text-decoration-none negro" href="https://api.whatsapp.com/send?phone=542233126713"><i class="fa fa-whatsapp"></i>
-                        (0223)312-6713 (Zona Sur)
+                        (0223)312-6713 (Zona Sur 1)
+                    </a>
+                </h6>
+                <h6>
+                    <a class="text-decoration-none negro" href="https://api.whatsapp.com/send?phone=541150378473"><i class="fa fa-whatsapp"></i>
+                        (011)5037-8473 (Zona Sur 2)
                     </a>
                 </h6>
                 <h6>

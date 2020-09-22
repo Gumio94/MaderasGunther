@@ -15,11 +15,29 @@
 .navbar-brand{
     color: #e1a400 !important;
     font-family: 'Oswald', sans-serif;
+    font-weight: 700;
 }
 
-.nav-link, .dropdown-item, label, .osw {
+.nav-link, .dropdown-item, label, .card button, .osw {
     font-family: 'Oswald', sans-serif;
     font-size: 1.45rem;
+    font-weight: 700;
+}
+
+.card button{
+    font-size: 1rem;
+}
+.card p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.card-header{
+    background-color: #e1a400 !important;
+}
+
+.card-body{
+    background-color: rgba(225, 164, 0, 0.74) !important;
 }
 
 .nav-link,.blanco{
@@ -43,6 +61,7 @@ p{
     font-family: 'Oswald', sans-serif;
     font-size: 1.3rem;
     color: #fff;
+    font-weight: 700;
 }
 
 .amarillo{

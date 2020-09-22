@@ -6,10 +6,11 @@
             <?php include "inc/navbar.php"?>
         </div>
         <div class="col-md-9 col-lg-7 py-3 my-4"> 
-            <div id = "rurales" class ="p-4">
-            <h2 class="blanco" osw > RURALES</h2>
+            <H1 class="negro">Maderas</H1>
+            <div id="rurales" class="p-4">
+            <h2 class="blanco">RURALES</h2>
                 <ul class="list-group">
-                    <li class="list-group-item">Varillas de alambrado</li>
+                    <li class="list-group-item"><i class="fa fa-chevron-down fa-fw"></i>Varillas de alambrado</li>
                     <li class="list-group-item">Anchico</li>
                     <li class="list-group-item">Guayaubira</li>
                     <li class="list-group-item">Eucaliptus rostrata</li>
@@ -19,8 +20,25 @@
                 </ul>
             </div>
 
-            <div id = "construccion"class ="p-4" >
-            <h2 class="blanco" osw > CONTRUCCION</h2>
+            <div id="construccion" class="p-4" >
+                <h2 class="blanco">CONTRUCCIÓN</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header p-1" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="fa fa-chevron-down fa-fw"></i>Eucalipto
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <p class="negro">La madera de eucalipto es una madera de gran resistencia, se usa mayormente para  exteriores, pero también la utilizan en carpintería interior tiene mucho potencial de explotación.</p>
+                                <a href="contacto.php#formulario">Cotizar ahora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <ul class="list-group">
                     <li class="list-group-item">Eucalipto</li>
                     <li class="list-group-item">Euca. Poste tratado</li>
@@ -43,7 +61,7 @@
             </div>
 
             <div id = "carpinteria" class ="p-4">
-            <h2 class="blanco" osw>CARPINTERIA</h2>
+            <h2 class="blanco">CARPINTERIA</h2>
                 <ul class="list-group">
                     <li class="list-group-item">Cedro</li>
                     <li class="list-group-item">Loro negro</li>
