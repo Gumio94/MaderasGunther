@@ -34,7 +34,15 @@
                         </div>
                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                             <div class="card-body">
-                                <p class="negro">La madera de eucalipto es una madera de gran resistencia, se usa mayormente para  exteriores, pero también la utilizan en carpintería interior tiene mucho potencial de explotación.</p>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <img src="img/gallery/14min.jpeg" class="w-100" alt="...">
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p class="negro">La madera de eucalipto es una madera de gran resistencia, se usa mayormente para  exteriores, pero también la utilizan en carpintería interior tiene mucho potencial de explotación.</p>
+                                    </div>
+                                </div>
+                                
                                 <a href="contacto.php#formulario">Cotizar ahora</a>
                             </div>
                         </div>
