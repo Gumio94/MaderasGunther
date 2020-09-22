@@ -89,7 +89,10 @@ body,.bg-negro{
 
 @media screen and (max-width: 575px) {
     .barra{
-    background-color: #262626;
+        background-color: #262626;
+    }
+    h4[class~="osw"]{
+        font-size: 1.3rem
     }
 }
 
