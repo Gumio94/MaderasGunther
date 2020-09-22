@@ -20,6 +20,7 @@
                 </ul>
             </div>
 
+
             <div id="construccion" class="p-4" >
                 <h2 class="blanco">CONTRUCCIÓN</h2>
                 <div class="accordion" id="accordionExample">
@@ -61,7 +62,7 @@
             </div>
 
             <div id = "carpinteria" class ="p-4">
-            <h2 class="blanco">CARPINTERIA</h2>
+            <h2 class="blanco">CARPINTERÍA</h2>
                 <ul class="list-group">
                     <li class="list-group-item">Cedro</li>
                     <li class="list-group-item">Loro negro</li>
@@ -75,9 +76,9 @@
             </div>
 
             <div id = "arte_rustico" class ="p-4">
-            <h2 class="blanco" osw > ARTES RUSTICOS</h2>
+            <h2 class="blanco" osw > ARTE RÚSTICO</h2>
                 <ul class="list-group">
-                    <li class="list-group-item">imagenes de arte rustico</li>
+                    <li class="list-group-item">imágenes de arte rústico</li>
                    
                 </ul>
             </div>
