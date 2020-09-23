@@ -40,13 +40,12 @@ Todas las maderas cumplen con el protocolo normativo de los planes de manejo for
                     <li data-target="#fotos" data-slide-to="9"></li>
                     <li data-target="#fotos" data-slide-to="10"></li>
                     <li data-target="#fotos" data-slide-to="11"></li>
-                    <li data-target="#fotos" data-slide-to="12"></li>
                     <li data-target="#fotos" data-slide-to="13"></li>
                     <li data-target="#fotos" data-slide-to="14"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/gallery/1.jpeg" srcset="img/gallery/1min.jpeg 300w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/camiondi.jpg" srcset="img/gallery/camiondi.jpg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
                         <img src="img/gallery/2.jpeg" srcset="img/gallery/2min.jpeg 300w" class="d-block w-100" alt="...">
@@ -67,17 +66,15 @@ Todas las maderas cumplen con el protocolo normativo de los planes de manejo for
                         <img src="img/gallery/8.jpeg" srcset="img/gallery/8min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/gallery/9.jpeg" srcset="img/gallery/9min.jpeg 300w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/postesdi.jpg" srcset="img/gallery/postesdi.jpg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/gallery/10.jpeg" srcset="img/gallery/10min.jpeg 300w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/tablonesdi.jpg" srcset="img/gallery/tablonesdi.jpg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
                         <img src="img/gallery/11.jpeg" srcset="img/gallery/11min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item">
-                        <img src="img/gallery/12.jpeg" srcset="img/gallery/12min.jpeg 300w" class="d-block w-100" alt="...">
-                    </div>
+                    
                     <div class="carousel-item">
                         <img src="img/gallery/13.jpeg" srcset="img/gallery/13min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
