@@ -8,14 +8,7 @@
         <div class="col-md-9 col-lg-7 py-3 my-4">
             <H1 class="negro">Contáctenos</H1>
             <h2 class="mt-5">Puede llamarnos al:</h2>
-            <div>
-                <h4 class="amarillo osw d-inline-block">
-                    (011) 3769-0929 (Zona Norte) 
-                </h4>
-                <a href="https://api.whatsapp.com/send?phone=541137690929" class="text-decoration-none amarillo d-block d-sm-inline-block">
-                    <span class="bg-negro osw rounded px-1">Enviar Whatsapp<i class="fa fa-whatsapp"></i></span>
-                </a>
-            </div>            
+                     
             <div class="py-1">
                 <h4 class="amarillo osw d-inline-block">
                     (0223) 312-6713 (Zona Sur 1)

@@ -4,11 +4,7 @@
             <h6 class="float-right">©2020 Maderas Günther</h6>      
             <div class="float-left mr-5">
                 <h6 class="sub" >Teléfonos</h6>
-                <h6>
-                    <a class="text-decoration-none negro" href="https://api.whatsapp.com/send?phone=541137690929"><i class="fa fa-whatsapp"></i>
-                        (011)3769-0929 (Zona Norte)
-                    </a>
-                </h6>
+               
                 <h6>
                     <a class="text-decoration-none negro" href="https://api.whatsapp.com/send?phone=542233126713"><i class="fa fa-whatsapp"></i>
                         (0223)312-6713 (Zona Sur 1)
