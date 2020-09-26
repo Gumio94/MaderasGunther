@@ -45,7 +45,7 @@ Todas las maderas cumplen con el protocolo normativo de los planes de manejo for
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/gallery/camiondi.jpg" srcset="img/gallery/camiondi.jpg 300w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/camiondi.jpg" srcset="img/gallery/camiondimin.jpg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
                         <img src="img/gallery/2.jpeg" srcset="img/gallery/2min.jpeg 300w" class="d-block w-100" alt="...">
@@ -66,10 +66,10 @@ Todas las maderas cumplen con el protocolo normativo de los planes de manejo for
                         <img src="img/gallery/8.jpeg" srcset="img/gallery/8min.jpeg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/gallery/postesdi.jpg" srcset="img/gallery/postesdi.jpg 300w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/postesdi.jpg" srcset="img/gallery/postesdimin.jpg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/gallery/tablonesdi.jpg" srcset="img/gallery/tablonesdi.jpg 300w" class="d-block w-100" alt="...">
+                        <img src="img/gallery/tablonesdi.jpg" srcset="img/gallery/tablonesdimin.jpg 300w" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
                         <img src="img/gallery/11.jpeg" srcset="img/gallery/11min.jpeg 300w" class="d-block w-100" alt="...">
