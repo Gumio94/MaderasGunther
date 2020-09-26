@@ -29,7 +29,7 @@
                 
                 <ul class="list-group">
                     <li class="list-group-item">Eucalipto</li>
-                    <li class="list-group-item">Euca. madera tratado</li>
+                    <li class="list-group-item">Euca. madera tratada</li>
                     <li class="list-group-item">Fenólicos</li>
                     <li class="list-group-item">Decks</li>
                     <li class="list-group-item">Machimbre</li>
