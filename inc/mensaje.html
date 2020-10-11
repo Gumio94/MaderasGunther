@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html leng="es">
+    <head>
+        <title>ANUNCIO POR COVID 19</title>
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <style>
+            .modal {
+                width: 100%;
+                height:100vh;
+                position: absolute;
+                background: #7779;
+                top: 0;
+                left:0;
+                display:flex;
+                animation: modal 2s 3s forwards;
+                visibility: hidden;
+                opacity: 0;
+
+            }
+            .contenido{
+                width: 40%;
+                height: 40%;
+                margin:auto;
+                background:rgba(86, 89, 236, 0.6);
+                border-radius: 10px;
+                text-align: justify;
+                padding: 15px;
+            }
+            .contenido h1 {
+                text-align:center;
+                color:rgb(185, 175, 24);
+            }
+            .contenido h2 {
+                text-align:center;
+                color: rgb(185, 175, 24);
+            }
+            .contenido p {
+                text-align:justify;
+                color: rgb(224, 224, 215);
+            }
+            #cerrar {
+                    display: none;
+                }
+            #cerrar + label{
+                position: fixed;
+                border-radius: 50%;
+                background: red;
+                color: white;
+                font-size: 25px;
+                z-index: 50;
+                text-align: center;
+                right: 20px;
+                padding: 5px;
+                cursor: pointer;
+
+                animation: modal 2s 3s forwards;
+                visibility: hidden;
+                opacity: 0;
+
+
+            }
+            #cerrar:checked + label,  #cerrar:checked ~ .modal{
+                 display: none;
+            }
+            @keyframes modal{
+                100% {
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+
+
+
+
+        </style>
+    </head>
+    
+    <body>
+
+        <input type = "checkbox" id ="cerrar" >
+        <label for="cerrar" id="btn-cerrar">X</label>
+        <div class="modal">
+
+            <div class="contenido">
+            
+                <h1>ANUNCIO IMPORTANATE</h1>
+                <h2>Bienvenidos a maderas Günther!!!</h2>
+                <P> les comunicamos que devido a las restricciones de circulación
+                    por covid-19 <strong>"NO ESTAMOS TOMANDO PEDIDOS TEMPORALMENTE"</strong>, 
+                    de todas maneras los invitamos a que miren nuestros productos y nos contacten.
+                </P>
+            
+            </div>
+
+        </div>
+        
+    </body>
+
+</html>
