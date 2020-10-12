@@ -47,7 +47,7 @@
 h1,h2{
     font-family: 'Source Serif Pro', serif;
     color: #fff !important;
-    font-size: 3.5rem;
+    font-size: 3.4rem;
 }
 h1[class~="amarillo"]{
     font-style: italic;  
@@ -92,7 +92,7 @@ body,.bg-negro{
         background-color: #262626;
     }
     h4[class~="osw"]{
-        font-size: 1.3rem
+        font-size: 1.2rem
     }
 }
 
