@@ -1,5 +1,5 @@
 <?php include "inc/header.php"?>
-
+<?php include "inc/mensaje.html"?>
 <div class="container-fluid cuerpo">
     <div class="row justify-content-md-center">
         <div class="col-12 py-2 barra">

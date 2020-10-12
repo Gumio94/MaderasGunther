@@ -1,8 +1,7 @@
 
 <?php include "inc/header.php"?>
-
+<?php include "inc/mensaje.html"?>
 <div class="degrade">
-<body>
 <div class="container-fluid cuerpo">
     <div class="row justify-content-md-center">
         <div class="col-12 py-2 barra">
@@ -104,7 +103,6 @@ Todas las maderas cumplen con el protocolo normativo de los planes de manejo for
     </div>
 </div>
 </div>
-</div>  
+ 
 
-</body>
 <?php include "inc/footer.php"?>
