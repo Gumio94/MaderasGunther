@@ -6,7 +6,7 @@
             <?php include "inc/navbar.php"?>
         </div>
         <div class="col-md-9 col-lg-7 py-3 my-4">
-            <H2 class="negro">Contáctenos</H2>
+            <H1 class="negro">Contáctenos</H1>
             <h2 class="mt-5">Puede llamarnos al:</h2>
                      
             <div class="py-1">
@@ -35,7 +35,7 @@
             </div>
 
             <h2 class="mt-5">Mandarnos un correo al:</h2>
-            <h6 class="amarillo osw">CONTACTO@MADERASGUNTHER.COM.AR</h6>
+            <h4 class="amarillo osw">CONTACTO@MADERASGUNTHER.COM.AR</h4>
             
             <h2 class="mt-5">O dejenos un mensaje con sus datos</h2>
             <form id="formulario" method="POST">
